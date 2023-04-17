@@ -18,23 +18,20 @@
 # misc
 .DS_Store
 *.pem
-/.vscode
+/.ignore
 
 # debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.pnpm-debug.log*
 
 # local env files
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env*.local
 
 # vercel
 .vercel
-build.css
 
-
-# Contentlayer
-.contentlayer
+# typescript
+*.tsbuildinfo
+next-env.d.ts
