@@ -1,41 +1,26 @@
 # Prosperity Website
 
-[![](https://img.shields.io/badge/framework-next--js-black?logo=next.js)](https://nextjs.org/)
-[![](https://img.shields.io/badge/main--lang-typescript-blue?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Discord](https://img.shields.io/discord/844449121376534558?color=%235865F2&label=discord&logo=discord&logoColor=white)](https://discord.gg/hfTxZ4XxYj/)
+This is the official website for the Prosperity Minecraft server and it's related projects. The site is mainly home to the server's wiki, landing page, and project gallery, with some future additions planned.
 
-Website and wiki built for the Prosperity Minecraft server. Created with Next.js, TypeScript, and Tailwind. Using markdown for wiki page generation.
+---
 
-## Deployment
+[Visit the site](https://prosperitymc.net) • [Discord server (contact)](https://discord.gg/Gf5tDk5EhR)
 
-New commits on `main` are automatically built and deployed to Vercel. You can visit the site with the following URLs.
+## For Developers
 
-[Production site](https://prosperity.vercel.app/)
-
-[Development site](https://prosperity-dev.vercel.app/)
-
-## Development
-
-If you wish to run the site locally you can follow these steps:
-
-1. [Download Node](https://nodejs.org/en/) (Next.js requires Node 14.x or above).
-2. Clone the latest commit from GitHub.
-3. Run the `npm install` command in the project directory to get any required dependencies.
-4. Run `npm run dev` in order to start the dev server.
-5. Navigate to http://localhost:3000/ in order to connect to the development server.
+This site is built with Next.js, Tailwind, and MDX.
 
 ## Contributing
 
-You are free to fork this repository and create a pull request with your changes. It is recommended that you get the latest [PostCSS](https://marketplace.visualstudio.com/items?itemName=csstools.postcss) and [Tailwind](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) extensions if you are using Visual Studio Code.
+If you are interested in contributing to the wiki read the contribution guide [here]().
 
-In addition, I use the [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) and [Headwind](https://marketplace.visualstudio.com/items?itemName=heybourn.headwind) for code formatting.
+If you are interested in contributing to the site itself follow the instructions below and ensure that you are following the configured Prettier and ESLint rules.
 
-### Contributing to the wiki
+To run the site locally you must have [Node.js](https://nextjs.org/) and [yarn](https://yarnpkg.com/) installed.
 
-If you wish the contribute to wiki, please follow the development setup instructions. This site uses the standard markdown format in addition to some custom frontmatter, you can see the formatting in the existing wiki pages.
+```bash
+yarn            # run to install the required packages
+yarn run dev    # run to start the live development server
+```
 
-When making any changes, please ensure that you use proper text formatting, spelling, and grammar.
-
-### Contributing to the gallery
-
-_The gallery isn't fully implemented yet, you will be able to contribute to it in the future ..._
+Then navigate to http://localhost:3000 to view the site.
